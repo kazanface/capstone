@@ -19,37 +19,37 @@
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container">
-      <a href="index.html" class="navbar-brand">KOBAYASHI</a>
+      <a href="index.php" class="navbar-brand">KOBAYASHI</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="html/about.html" class="nav-link">About Us</a>
+            <a href="php/company_pages/about.php" class="nav-link">About Us</a>
           </li>
           <li class="nav-item">
-            <a href="html/services.html" class="nav-link">Services</a>
+            <a href="php/company_pages/services.php" class="nav-link">Services</a>
           </li>
           <li class="nav-item">
-            <a href="html/blog.html" class="nav-link">Blog</a>
+            <a href="php/company_pages/blog.php" class="nav-link">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="html/contact.html" class="nav-link">Contact</a>
+            <a href="php/company_pages/contact.php" class="nav-link">Contact</a>
           </li>
         </ul>
-          <a class="btn btn-outline-primary ml-5 mr-3 my-sm-0 btn-sm" href="php/cust_register.php" role="button">Register</a>
+          <a class="btn btn-outline-primary ml-5 mr-3 my-sm-0 btn-sm" href="php/company_pages/cust_register.php" role="button">Register</a>
 <!--          <a class="btn btn-primary my-sm-0 btn-sm" href="register.php" role="button">Login</a>-->
           <div class="dropdown">
               <button class="btn btn-primary my-sm-0 btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
                   Login
               </button>
               <div class="dropdown-menu">
-                  <a class="dropdown-item" href="php/cust_login.php">Customers</a>
-                  <a class="dropdown-item" href="php/sales_login.php">Sales</a>
+                  <a class="dropdown-item" href="php/company_pages/cust_login.php">Customers</a>
+                  <a class="dropdown-item" href="php/company_pages/sales_login.php">Sales</a>
               </div>
           </div>
       </div>
@@ -155,7 +155,7 @@
           <h3>Lorem Ipsum</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum
             cum laudantium ex sequi amet.</p>
-          <a href="html/about.html" class="btn btn-outline-danger btn-lg">Learn More</a>
+          <a href="php/company_pages/about.php" class="btn btn-outline-danger btn-lg">Learn More</a>
         </div>
         <div class="col-md-6">
           <img src="img/laptop.png" alt="" class="img-fluid">
@@ -252,16 +252,7 @@
   </section>
 
   <!-- FOOTER -->
-  <footer id="main-footer" class="text-center p-4">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Copyright &copy;
-            <span id="year"></span> KOBAYASHI</p>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include_once("./html/footer.html"); ?>
 
 
   <!-- VIDEO MODAL -->

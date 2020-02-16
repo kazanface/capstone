@@ -20,7 +20,7 @@
 
 <body class="text-center">
 <h3 class="my-5">
-    <a href="../index.html"><strong>KOBAYASHI</strong></a>
+    <a href="../../index.php"><strong>KOBAYASHI</strong></a>
 </h3>
 
 

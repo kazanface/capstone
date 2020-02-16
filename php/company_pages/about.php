@@ -11,33 +11,33 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../../css/style.css">
   <title>Bootstrap Theme</title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container">
-      <a href="../index.html" class="navbar-brand">KOBAYASHI</a>
+      <a href="../../index.php" class="navbar-brand">KOBAYASHI</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="../index.html" class="nav-link">Home</a>
+            <a href="../../index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item active">
-            <a href="about.html" class="nav-link">About Us</a>
+            <a href="about.php" class="nav-link">About Us</a>
           </li>
           <li class="nav-item">
-            <a href="services.html" class="nav-link">Services</a>
+            <a href="services.php" class="nav-link">Services</a>
           </li>
           <li class="nav-item">
-            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="blog.php" class="nav-link">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="contact.php" class="nav-link">Contact</a>
           </li>
         </ul>
       </div>

@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-          crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-          crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
-    <link href="/css/login.css" rel="stylesheet">
+    <?php include_once("../includes/head.php"); ?>
+    <link rel="stylesheet" href="../../css/login.css">
     <title>Customer Registration</title>
 </head>
 
-<header>
-</header>
+<!--<header>-->
+<!--</header>-->
 
 <body class="text-center">
+<?php include_once("../includes/navbar.php"); ?>
     <h3 class="my-4">
         <a href="../../index.php"><strong>KOBAYASHI</strong></a>
     </h3>
@@ -72,6 +64,9 @@
         </div>
     </div>
 
-    <p class="mt-5 mb-3 text-muted">Copyright &copy; 2020, KOBAYASHI.</p>
+<!--    <p class="mt-5 mb-3 text-muted">Copyright &copy; 2020, KOBAYASHI.</p>-->
+<!-- FOOTER -->
+<?php include_once("../includes/footer.php"); ?>
+<?php include_once("../includes/scripts.php"); ?>
 </body>
 </html>

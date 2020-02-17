@@ -11,38 +11,15 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
   <link rel="stylesheet" href="../../css/style.css">
   <title>Bootstrap Theme</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <div class="container">
-      <a href="../../index.php" class="navbar-brand">KOBAYASHI</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="../../index.php" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a href="about.php" class="nav-link">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="services.php" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="blog.php" class="nav-link">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.php" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- HEADER -->
+    <?php include_once("../../html/header.html"); ?>
 
   <!-- PAGE HEADER -->
   <header id="page-header">
@@ -187,16 +164,7 @@
   </section>
 
   <!-- FOOTER -->
-  <footer id="main-footer" class="text-center p-4">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Copyright &copy;
-            <span id="year"></span> KOBAYASHI</p>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include_once("../../html/footer.html"); ?>
 
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

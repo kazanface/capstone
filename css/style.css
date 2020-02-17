@@ -3,6 +3,7 @@ body {
 }
 
 .navbar .nav-link {
+  font-weight: 800;
   font-size: 14px;
   text-transform: uppercase;
   padding-left: 1rem !important;
@@ -67,17 +68,21 @@ body {
 }
 
 #page-header {
-  height: 200px;
-  background: url('../img/servers.jpg');
-  background-position: 0 -360px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
   border-bottom: 1px #eee solid;
-  padding-top: 50px;
 }
 
-.about-img {
-  margin-top: -50px;
+
+.header-services{
+  background: url('../img/services_header.jpg');
+}
+
+.header-contact{
+  background: url('../img/contact_header.jpg');
 }
 
 #faq .card {
@@ -97,4 +102,12 @@ body {
 #main-footer {
   background: #000;
   color: #fff;
+}
+
+
+
+/*About Us*/
+.header-about {
+  background: url('../img/about_header.jpg');
+  background-position: 0 -250px;
 }

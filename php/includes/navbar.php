@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
             <a href="/index.php" class="navbar-brand">
-                <img src="/img/logo_white.png" height="40" alt="Kobayashi logo">
+                <img src="/img/logo_white_gradient.png" height="40" alt="Kobayashi logo">
             </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>

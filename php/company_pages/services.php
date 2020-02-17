@@ -9,11 +9,11 @@
 <body>
     <!-- HEADER -->
     <?php include_once("../includes/navbar.php"); ?>
-    <div id="page-header">
+    <div id="page-header" class="header-services d-flex align-items-center">
     <div class="container">
       <div class="row">
         <div class="col-md-6 m-auto text-center">
-          <h1>Our Services</h1>
+          <h1 class="font-weight-bold">Our Services</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
         </div>
       </div>
@@ -250,6 +250,7 @@
 
   <!-- FOOTER -->
     <?php include_once("../includes/footer.php"); ?>
+
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>

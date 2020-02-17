@@ -9,13 +9,12 @@
 <body>
     <!-- HEADER -->
     <?php include_once("../includes/navbar.php"); ?>
-
   <!-- PAGE HEADER -->
-  <div id="page-header">
+  <div id="page-header" class="header-contact  d-flex align-items-center">
     <div class="container">
       <div class="row">
         <div class="col-md-6 m-auto text-center">
-          <h1>Contact Us</h1>
+          <h1 class="font-weight-bold">Contact Us</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
         </div>
       </div>
@@ -40,8 +39,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8">
-          <div class="card p-4">
+        <div class="col-md-8 d-flex flex-column">
+          <div class="card p-4 flex-grow-1">
             <div class="card-body">
               <h3 class="text-center">Please fill out this form to contact us</h3>
               <hr>

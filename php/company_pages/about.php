@@ -11,23 +11,23 @@
     <?php include_once("../includes/navbar.php"); ?>
 
   <!-- PAGE HEADER -->
-  <header id="page-header">
+  <header id="page-header" class="header-about d-flex align-items-center">
     <div class="container">
       <div class="row">
         <div class="col-md-6 m-auto text-center">
-          <h1>About Us</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+          <h1 class="font-weight-bold">About Us</h1>
+          <p>Kobayashi is the fastest growing security company in the world with NSCC students.</p>
         </div>
       </div>
     </div>
   </header>
 
   <!-- ABOUT SECTION -->
-  <section id="about" class="py-3">
+  <section id="about" class="py-5">
     <div class="container">
-      <div class="row">
+      <div class="row d-flex align-items-center">
         <div class="col-md-6">
-          <h1>What We Do</h1>
+          <h1 class="font-weight-bold mb-5">What We Do</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga eaque. Amet, assumenda aliquid tempore dolorum
             error eveniet doloribus sed repellat quod, dolores fuga ipsam soluta. Aliquam accusantium pariatur aut sint deleniti
             laborum ducimus voluptatem? Architecto cumque quod suscipit officiis soluta, voluptate dicta blanditiis similique
@@ -46,31 +46,31 @@
 
   <!-- ICON BOXES -->
   <section id="icon-boxes" class="p-5">
-    <div class="container">
+    <div class="container about-card">
       <div class="row mb-4">
         <div class="col-md-4">
           <div class="card bg-danger text-white text-center">
-            <div class="card-body">
+            <div class="p-5">
               <i class="fas fa-building fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3 class="pt-4">Sample Heading</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card bg-dark text-white text-center">
-            <div class="card-body">
+            <div class="p-5">
               <i class="fas fa-bullhorn fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3 class="pt-4">Sample Heading</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card bg-danger text-white text-center">
-            <div class="card-body">
+            <div class="p-5">
               <i class="fas fa-comments fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3 class="pt-4">Sample Heading</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
@@ -80,27 +80,27 @@
       <div class="row mb-4">
         <div class="col-md-4">
           <div class="card bg-dark text-white text-center">
-            <div class="card-body">
+            <div class="p-5">
               <i class="fas fa-box fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3 class="pt-4">Sample Heading</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card bg-danger text-white text-center">
-            <div class="card-body">
+            <div class="p-5">
               <i class="fas fa-credit-card fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3 class="pt-4">Sample Heading</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card bg-dark text-white text-center">
-            <div class="card-body">
+            <div class="p-5">
               <i class="fas fa-coffee fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3 class="pt-4">Sample Heading</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>

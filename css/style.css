@@ -18,17 +18,17 @@ body {
 }
 
 .carousel-image-1 {
-  background: url('../img/image1.jpg');
+  background: url('../img/woman-standing.jpg');
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../img/image2.jpg');
+  background: url('../img/servers.jpg');
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/image3.jpg');
+  background: url('../img/developer.jpg');
   background-size: cover;
 }
 

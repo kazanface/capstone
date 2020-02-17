@@ -33,6 +33,13 @@ body {
   background-size: cover;
 }
 
+/*Carousel caption vertical align*/
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 50%;
+}
+
 #home-heading {
   position: relative;
   min-height: 200px;
@@ -104,10 +111,38 @@ body {
   color: #fff;
 }
 
+/*Home page*/
+.home-p-20 {
+  font-size: 20px;
+}
+.business-setup {
+  background: #2600B3;
+  color: #ffffff;
+}
+.home-stats {
+  padding: 96px 0;
+  background: #EFEFEF;
+}
+.home-h3-stats {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  margin-top: 25px!important;
+}
+.home-img-stats {
+  height: 35%;
+}
+.home-p-stats {
+  margin-bottom: 10px!important;
+  font-size: 20px;
+}
 
 
-/*About Us*/
+  /*About Us*/
 .header-about {
   background: url('../img/about_header.jpg');
   background-position: 0 -250px;
 }
+
+

@@ -5,7 +5,7 @@
 
     <?php include_once("./php/includes/head.php"); ?>
     <link rel="stylesheet" href="./css/style.css">
-  <title>Kobayashi</title>
+    <title>Kobayashi</title>
 </head>
 
 <body>
@@ -23,33 +23,45 @@
       <div class="carousel-inner">
         <div class="carousel-item carousel-image-1 active">
           <div class="container">
-            <div class="carousel-caption d-none d-sm-block text-right mb-5">
-              <h1 class="display-3">Heading One</h1>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                quod aliquid inventore vero perspiciatis.</p>
-              <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+            <div class="carousel-caption d-none d-sm-block text-left">
+              <div class="row">
+                  <div class="col-md-8">
+                      <h1 class="display-4 font-weight-bold">Cybersecurity and Enterprise Risk </h1>
+                      <p class="lead">
+                          Your customers trust you. Who do you trust?
+                      </p>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="carousel-item carousel-image-2">
           <div class="container">
-            <div class="carousel-caption d-none d-sm-block mb-5">
-              <h1 class="display-3">Heading Two</h1>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                quod aliquid inventore vero perspiciatis.</p>
-              <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            <div class="carousel-caption d-none d-sm-block text-left mb-5">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="display-4 font-weight-bold">Cybersecurity Reports</h1>
+                        <p class="lead">
+                            Ask as about the State of Cybersecurity Report 2019
+                        </p>
+                    </div>
+                </div>
             </div>
           </div>
         </div>
 
         <div class="carousel-item carousel-image-3">
           <div class="container">
-            <div class="carousel-caption d-none d-sm-block text-right mb-5">
-              <h1 class="display-3">Heading Three</h1>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                quod aliquid inventore vero perspiciatis.</p>
-              <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            <div class="carousel-caption d-none d-sm-block text-left">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="display-4 font-weight-bold">Award Winning Company</h1>
+                        <p class="lead">
+                            NelsonHall named us a Leader in security services in its NEAT Report. — June 2019
+                        </p>
+                    </div>
+                </div>
             </div>
           </div>
         </div>
@@ -65,165 +77,148 @@
     </div>
   </section>
 
-  <!--HOME ICON SECTION  -->
-  <section id="home-icons" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-4 text-center">
-          <i class="fas fa-cog fa-3x mb-2"></i>
-          <h3>Turning Gears</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+    <!-- HOME HEADER -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="font-weight-bold mb-5">We’re Revolutionizing Cybersecurity</h1>
+                </div>
+                <div class="col-md-10">
+                    <p class="home-p-20">As the world leader in cybersecurity solutions, Kobayashi combines machine learning
+                        with human intelligence to detect faster, respond smarter, and predict and prevent more threats altogether.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 mb-4 text-center">
-          <i class="fas fa-cloud fa-3x mb-2"></i>
-          <h3>Sending Data</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
-        </div>
-        <div class="col-md-4 mb-4 text-center">
-          <i class="fas fa-cart-plus fa-3x mb-2"></i>
-          <h3>Making Money</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- HOME HEADING SECTION -->
-  <section id="home-heading" class="p-5">
-    <div class="dark-overlay">
-      <div class="row">
-        <div class="col">
-          <div class="container pt-5">
-            <h1>Are You Ready To Get Started?</h1>
-            <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eaque magni sit dolores. Nisi, dolor nam modi perspiciatis
-              consequatur soluta.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- INFO SECTION -->
-  <section id="info" class="py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center">
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum
-            cum laudantium ex sequi amet.</p>
-          <a href="php/company_pages/about.php" class="btn btn-outline-danger btn-lg">Learn More</a>
-        </div>
-        <div class="col-md-6">
-          <img src="img/laptop.png" alt="" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- HOME CARDS -->
+    <section>
+        <div class="container">
+        <div class="row mb-4">
 
-  <!-- VIDEO PLAY -->
-  <section id="video-play">
-    <div class="dark-overlay">
-      <div class="row">
-        <div class="col">
-          <div class="container p-5">
-            <a href="#" class="video" data-video="https://www.youtube.com/embed/HnwsG9a5riA" data-toggle="modal" data-target="#videoModal">
-              <i class="fas fa-play fa-3x"></i>
-            </a>
-            <h1>See What We Do</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="/img/home_card1.jpg" class="card-img-top" alt="">
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Helping You Secure Human Progress</h4>
+                        <p class="card-text">By combining the power of advanced analytics with the security expertise and experience
+                            of our teams, we enable you to focus more on what matters.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-  <!-- PHOTO GALLERY -->
-  <section id="gallery" class="py-5">
-    <div class="container">
-      <h1 class="text-center">Photo Gallery</h1>
-      <p class="text-center">Check out our photos</p>
-      <div class="row mb-4">
-        <div class="col-md-4">
-          <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
-            data-width="560">
-            <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
-          </a>
-        </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="/img/home_card2.jpg" class="card-img-top" alt="">
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Unmatched Intelligence, Unmatched Expertise</h4>
+                        <p class="card-text">Only Kobayshi brings 20 years of industry knowledge, advanced analytics, world-leading
+                            threat intelligence and the network effect of over 4000 clients.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-        <div class="col-md-4">
-          <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery" data-height="561"
-            data-width="561">
-            <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
-          </a>
-        </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="/img/home_card3.jpg" class="card-img-top" alt="">
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Now—We’re Putting the Power in Your Hands</h4>
+                        <p class="card-text">We’re proud to introduce Kobayashi™ Threat Detection and Response, the first in a suite of
+                            applications that puts our intelligence and expertise in your hands.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-        <div class="col-md-4">
-          <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery" data-height="562"
-            data-width="562">
-            <img src="https://source.unsplash.com/random/562x562" alt="" class="img-fluid">
-          </a>
         </div>
-      </div>
+        </div>
+    </section>
 
-      <div class="row mb-4">
-        <div class="col-md-4">
-          <a href="https://source.unsplash.com/random/563x563" data-toggle="lightbox" data-gallery="img-gallery" data-height="563"
-            data-width="563">
-            <img src="https://source.unsplash.com/random/563x563" alt="" class="img-fluid">
-          </a>
-        </div>
 
-        <div class="col-md-4">
-          <a href="https://source.unsplash.com/random/564x564" data-toggle="lightbox" data-gallery="img-gallery" data-height="564"
-            data-width="564">
-            <img src="https://source.unsplash.com/random/564x564" alt="" class="img-fluid">
-          </a>
+    <!-- HOME Securing Your Critical Business Setup -->
+    <section class="business-setup py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2 class="font-weight-bold mb-5">Securing Your Critical Business Setup</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>In this digital age, securing systems is one of the biggest risks facing all businesses. Security threats are increasing in frequency and potency, and leading companies worldwide face a tough challenge to invest in security as new use cases emerge in a constantly changing IT landscape.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>You need a simplified, standardized, future-ready enterprise security environment. With proven experience and a wide range of solutions and services, we can help you secure your enterprise. See how we can help you build, integrate or modernize your security infrastructure to keep your business running efficiently, effectively and affordably.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="col-md-4">
-          <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox" data-gallery="img-gallery" data-height="565"
-            data-width="565">
-            <img src="https://source.unsplash.com/random/565x565" alt="" class="img-fluid">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- NEWSLETTER -->
-  <section id="newsletter" class="text-center p-5 bg-dark text-white">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Sign Up For Our Newsletter</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores consectetur, quae ducimus voluptates
-            vero repellendus architecto maiores recusandae mollitia?</p>
-          <form class="form-inline justify-content-center">
-            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
-            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
-            <button class="btn btn-primary mb-2">Submit</button>
-          </form>
+    <section class="home-stats">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="mb-5">Key Stats</h2>
+                </div>
+            <div class="row">
+
+                <div class="col-md-3 mb-4 text-center">
+                    <img src="/img/home_icon_globe.png" class="home-img-stats" alt="">
+                    <h3 class="home-h3-stats mt-3">4,100</h3>
+                    <p class="home-p-stats">Customers in 50+ Countries</p>
+                </div>
+
+                <div class="col-md-3 mb-4 text-center">
+                    <img src="/img/home_icon_security.png" class="home-img-stats" alt="">
+                    <h3 class="home-h3-stats mt-3">Up to 310B</h3>
+                    <p class="home-p-stats">Security Events Processed Daily</p>
+                </div>
+
+                <div class="col-md-3 mb-4 text-center">
+                    <img src="/img/home_icon_signature.png" class="home-img-stats" alt="">
+                    <h3 class="home-h3-stats mt-3">300+</h3>
+                    <p class="home-p-stats">Expert Security Analysts, Researchers and Responders</p>
+                </div>
+
+                <div class="col-md-3 mb-4 text-center">
+                    <img src="/img/home_icon_bars.png" class="home-img-stats" alt="">
+                    <h3 class="home-h3-stats mt-3">20+</h3>
+                    <p class="home-p-stats">Years of Attack and Threat Actor Group Data</p>
+                </div>
+
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
+
 
   <!-- FOOTER -->
-  <?php include_once("./html/footer.html"); ?>
+  <?php include_once("./php/includes/footer.php"); ?>
 
 
-  <!-- VIDEO MODAL -->
-  <div class="modal fade" id="videoModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button class="close" data-dismiss="modal">
-            <span>&times;</span>
-          </button>
-          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
 
     <?php include_once("./php/includes/scripts.php"); ?>
 
@@ -241,20 +236,6 @@
     $(document).on('click', '[data-toggle="lightbox"]', function (event) {
       event.preventDefault();
       $(this).ekkoLightbox();
-    });
-
-    // Video Play
-    $(function () {
-      // Auto play modal video
-      $(".video").click(function () {
-        var theModal = $(this).data("target"),
-          videoSRC = $(this).attr("data-video"),
-          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-        $(theModal + ' iframe').attr('src', videoSRCauto);
-        $(theModal + ' button.close').click(function () {
-          $(theModal + ' iframe').attr('src', videoSRC);
-        });
-      });
     });
 
   </script>

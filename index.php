@@ -10,6 +10,8 @@
 
 <body>
     <!-- HEADER -->
+
+
     <?php include_once("./php/includes/navbar.php"); ?>
 
   <!-- SHOWCASE SLIDER -->

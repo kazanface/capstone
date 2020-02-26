@@ -21,156 +21,225 @@
   </div>
 
   <!-- SERVICES SECTION -->
-  <section id="services" class="py-5">
+<!--  <section id="services" class="py-5">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-3">-->
+<!--                 <div class="card text-center">-->
+<!--            <div class="card-header bg-dark text-white">-->
+<!--              <h3>Service Plan One</h3>-->
+<!--            </div>-->
+<!--                <div class="card-body">-->
+<!--                  <h4 class="card-title">$59.99/Month</h4>-->
+<!--                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.</p>-->
+<!--                          <ul class="list-group">-->
+<!--                            <li class="list-group-item">-->
+<!--                              <i class="fas fa-check"></i> Feature One-->
+<!--                            </li>-->
+<!--                            <li class="list-group-item">-->
+<!--                              <i class="fas fa-check"></i> Feature Two-->
+<!--                            </li>-->
+<!--                            <li class="list-group-item">-->
+<!--                              <i class="fas fa-check"></i> Feature Three-->
+<!--                            </li>-->
+<!--                            <li class="list-group-item">-->
+<!--                              <i class="fas fa-check"></i> Feature Four-->
+<!--                            </li>-->
+<!--                            <li class="list-group-item">-->
+<!--                              <i class="fas fa-check"></i> Feature Five-->
+<!--                            </li>-->
+<!--                          </ul>-->
+<!--                  <a href="#" class="btn btn-danger btn-block mt-2">Get It</a>-->
+<!--                </div>-->
+<!--            <div class="card-footer text-muted">-->
+<!--              1 Year Plan-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!---->
+<!---->
+<!--        <div class="col-md-3">-->
+<!--          <div class="card text-center">-->
+<!---->
+<!--            <div class="card-header bg-dark text-white">-->
+<!--                <h3>Service Plan Two</h3>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="card-body">-->
+<!---->
+<!--              <h4 class="card-title">$99.99/Month</h4>-->
+<!--              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.</p>-->
+<!---->
+<!--                <ul class="list-group">-->
+<!--                    <li class="list-group-item">-->
+<!--                      <i class="fas fa-check"></i> Feature One-->
+<!--                    </li>-->
+<!--                    <li class="list-group-item">-->
+<!--                      <i class="fas fa-check"></i> Feature Two-->
+<!--                    </li>-->
+<!--                    <li class="list-group-item">-->
+<!--                      <i class="fas fa-check"></i> Feature Three-->
+<!--                    </li>-->
+<!--                    <li class="list-group-item">-->
+<!--                      <i class="fas fa-check"></i> Feature Four-->
+<!--                    </li>-->
+<!--                    <li class="list-group-item">-->
+<!--                      <i class="fas fa-check"></i> Feature Five-->
+<!--                    </li>-->
+<!--                  </ul>-->
+<!--              <a href="#" class="btn btn-danger btn-block mt-2">Get It</a>-->
+<!--            </div>-->
+<!--            <div class="card-footer text-muted">-->
+<!--              1 Year Plan-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!---->
+<!---->
+<!--        <div class="col-md-3">-->
+<!--            <div class="card" style="width: 18rem;">-->
+<!--                <img class="card-img-top" src="..." alt="Card image cap">-->
+<!--                <div class="card-body">-->
+<!--                    <h5 class="card-title">Card title</h5>-->
+<!--                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--                    <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!---->
+<!---->
+<!--            <div class="col-md-3">-->
+<!--                <div class="card" style="width: 18rem;">-->
+<!--                    <img class="card-img-top" src="..." alt="Card image cap">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Card title</h5>-->
+<!--                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--      </div>-->
+<!--    </div>-->
+  <div class="container">
+          <div class="row" style="margin-top: 5%;">
+
+              <div class="col-md-4">
+                  <div class="card" style="width: 18rem; ">
+                      <img class="card-img-top" src="img/radar.png" >
+                      <div class="card-body">
+                          <h5 class="card-title">Intrusion Detection</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="col-md-4">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top"  src="../../img/logo_blue.png" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Log Management</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div>
+              </div>
+
+
+                  <div class="col-md-4">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Anti-Virus Integration</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div>
+                  </div>
+          </div>
+      </div>
+
+      <div class="container">
+          <div class="row" style="margin-top: 5%;">
+
+              <div class="col-md-4">
+                  <div class="card" style="width: 18rem; ">
+                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Asset Discovery</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="col-md-4">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Dark Web Scanning</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="col-md-4">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Managed Security Services</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                 <div class="card text-center">
-            <div class="card-header bg-dark text-white">
-              <h3>Service Plan One</h3>
-            </div>
-                <div class="card-body">
-                  <h4 class="card-title">$59.99/Month</h4>
-                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.</p>
-                          <ul class="list-group">
-                            <li class="list-group-item">
-                              <i class="fas fa-check"></i> Feature One
-                            </li>
-                            <li class="list-group-item">
-                              <i class="fas fa-check"></i> Feature Two
-                            </li>
-                            <li class="list-group-item">
-                              <i class="fas fa-check"></i> Feature Three
-                            </li>
-                            <li class="list-group-item">
-                              <i class="fas fa-check"></i> Feature Four
-                            </li>
-                            <li class="list-group-item">
-                              <i class="fas fa-check"></i> Feature Five
-                            </li>
-                          </ul>
-                  <a href="#" class="btn btn-danger btn-block mt-2">Get It</a>
-                </div>
-            <div class="card-footer text-muted">
-              1 Year Plan
-            </div>
-          </div>
-        </div>
+        <div class="row" style="margin-top: 5%; margin-bottom: 5%;">
 
-
-        <div class="col-md-3">
-          <div class="card text-center">
-
-            <div class="card-header bg-dark text-white">
-                <h3>Service Plan Two</h3>
-            </div>
-
-            <div class="card-body">
-
-              <h4 class="card-title">$99.99/Month</h4>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.</p>
-
-                <ul class="list-group">
-                    <li class="list-group-item">
-                      <i class="fas fa-check"></i> Feature One
-                    </li>
-                    <li class="list-group-item">
-                      <i class="fas fa-check"></i> Feature Two
-                    </li>
-                    <li class="list-group-item">
-                      <i class="fas fa-check"></i> Feature Three
-                    </li>
-                    <li class="list-group-item">
-                      <i class="fas fa-check"></i> Feature Four
-                    </li>
-                    <li class="list-group-item">
-                      <i class="fas fa-check"></i> Feature Five
-                    </li>
-                  </ul>
-              <a href="#" class="btn btn-danger btn-block mt-2">Get It</a>
-            </div>
-            <div class="card-footer text-muted">
-              1 Year Plan
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-
-
-            <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; ">
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">SaaS Vendor Security</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
-      </div>
+
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Security Monitoring</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">SOC-as-a-Service</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  <div class="container">
-          <div class="row">
-
-              <div class="col-md-2">
-                  <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="..." alt="Card image cap">
-                      <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-md-2">
-                  <div class="card" style="width: 18rem; margin-right: 80%;">
-                      <img class="card-img-top" src="..." alt="Card image cap">
-                      <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                  </div>
-              </div>
 
 
-              <div class="col-md-2">
-                  <div class="card" style="width: 18rem;margin-left: 80%;">
-                      <img class="card-img-top" src="..." alt="Card image cap">
-                      <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                  </div>
-              </div>
-
-
-              <div class="col-md-2">
-                  <div class="card" style="width: 18rem;margin-left: 80%;">
-                      <img class="card-img-top" src="..." alt="Card image cap">
-                      <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
 
 
   <!-- FAQ -->

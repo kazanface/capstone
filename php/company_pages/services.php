@@ -137,7 +137,7 @@
 
               <div class="col-md-4">
                   <div class="card" style="width: 18rem;">
-                      <img class="card-img-top"  src="../../img/logo_blue.png" alt="Card image cap">
+                      <img class="card-img-top"  src="img/logManagement.jpg" alt="Card image cap">
                       <div class="card-body">
                           <h5 class="card-title">Log Management</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -149,7 +149,7 @@
 
                   <div class="col-md-4">
                   <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <img class="card-img-top" src="img/Anti_Virus.jpg" alt="Card image cap">
                       <div class="card-body">
                           <h5 class="card-title">Anti-Virus Integration</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -165,7 +165,7 @@
 
               <div class="col-md-4">
                   <div class="card" style="width: 18rem; ">
-                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <img class="card-img-top" src="img/Asset_Discovery.webp" alt="Card image cap">
                       <div class="card-body">
                           <h5 class="card-title">Asset Discovery</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -177,7 +177,7 @@
 
               <div class="col-md-4">
                   <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <img class="card-img-top" src="img/Dark_web.webp" alt="Card image cap">
                       <div class="card-body">
                           <h5 class="card-title">Dark Web Scanning</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -189,7 +189,7 @@
 
               <div class="col-md-4">
                   <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <img class="card-img-top" src="img/security_Managment.webp" alt="Card image cap">
                       <div class="card-body">
                           <h5 class="card-title">Managed Security Services</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -204,7 +204,7 @@
 
             <div class="col-md-4">
                 <div class="card" style="width: 18rem; ">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="img/vendor_security.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">SaaS Vendor Security</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -216,7 +216,7 @@
 
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="img/security_mangament.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Security Monitoring</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -228,9 +228,9 @@
 
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="img/Von_mangament.webp" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">SOC-as-a-Service</h5>
+                        <h5 class="card-title">Vulnerability Management</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>

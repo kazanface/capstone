@@ -125,7 +125,7 @@
 
               <div class="col-md-4">
                   <div class="card" style="width: 18rem; ">
-                      <img class="card-img-top" src="img/radar.png" style="max-height: 162px;" >
+                      <img class="card-img-top" src="../../img/radar.png" style="max-height: 162px;" >
                       <div class="card-body"style="height: 339px;">
                           <h5 class="card-title">Intrusion Detection</h5>
                           <p class="card-text" >Alert Logic protects your business – including your containers and applications – with award-winning network
@@ -138,7 +138,7 @@
 
               <div class="col-md-4">
                   <div class="card" style="width: 18rem;">
-                      <img class="card-img-top"  src="img/logManagement.jpg" alt="Card image cap" style="max-height: 162px;">
+                      <img class="card-img-top" src="../../img/logManagement.jpg" alt="Card image cap" style="max-height: 162px;">
                       <div class="card-body"style="height: 339px;">
                           <h5 class="card-title">Log Management</h5>
                           <p class="card-text">With a logging approach informed by leading practices, organizations can capture the right data,
@@ -152,7 +152,7 @@
 
                   <div class="col-md-4">
                   <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="img/Anti_Virus.jpg" alt="Card image cap" style="max-height: 162px;">
+                      <img class="card-img-top" src="../../img/Anti_Virus.jpg" alt="Card image cap" style="max-height: 162px;">
                       <div class="card-body"style="height: 339px;">
                           <h5 class="card-title">Anti-Virus Integration</h5>
                           <p class="card-text">Anti-Virus (AV) scanning is an essential part of an organization's security monitoring and provides valuable data for
@@ -169,7 +169,7 @@
 
               <div class="col-md-4">
                   <div class="card" style="width: 18rem; ">
-                      <img class="card-img-top" src="img/Asset_Discovery.webp" alt="Card image cap" style="max-height: 162px;">
+                      <img class="card-img-top" src="../../img/Asset_Discovery.webp" alt="Card image cap" style="max-height: 162px;">
                       <div class="card-body"style="height: 339px;">
                           <h5 class="card-title">Asset Discovery</h5>
                           <p class="card-text">Alert Logic continuously gathers information about the quantity, location, and condition of assets across your enterprise
@@ -182,7 +182,7 @@
 
               <div class="col-md-4">
                   <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="img/Dark_web.webp" alt="Card image cap" style="max-height: 162px;">
+                      <img class="card-img-top" src="../../img/Dark_web.webp" alt="Card image cap" style="max-height: 162px;">
                       <div class="card-body"style="height: 339px;">
                           <h5 class="card-title">Dark Web Scanning</h5>
                           <p class="card-text">Alert Logic dark web scanner helps to prevent account takeover attacks (ATO) from damaging your business.
@@ -195,7 +195,7 @@
 
               <div class="col-md-4">
                   <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="img/security_Managment.webp" alt="Card image cap" style="max-height: 162px;">
+                      <img class="card-img-top" src="../../img/security_Managment.webp" alt="Card image cap" style="max-height: 162px;">
                       <div class="card-body"style="height: 339px;">
                           <h5 class="card-title">Managed Security Services</h5>
                           <p class="card-text">Qualified information security staff are hard to find and difficult to keep. And operating your own 24/7
@@ -212,7 +212,7 @@
 
             <div class="col-md-4">
                 <div class="card" style="width: 18rem; ">
-                    <img class="card-img-top" src="img/vendor_security.png" alt="Card image cap" style="max-height: 162px;">
+                    <img class="card-img-top" src="../../img/vendor_security.png" alt="Card image cap" style="max-height: 162px;">
                     <div class="card-body"style="height: 339px;">
                         <h5 class="card-title">SaaS Vendor Security</h5>
                         <p class="card-text">SAlert Logic provides the security platform, up-to-date threat intelligence and expert defenders to deliver round-the-clock network security monitoring against threats, attacks,
@@ -225,7 +225,7 @@
 
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="img/security_mangament.jpg" alt="Card image cap" style="max-height: 162px;">
+                    <img class="card-img-top" src="../../img/security_mangament.jpg" alt="Card image cap" style="max-height: 162px;">
                     <div class="card-body"style="height: 339px;">
                         <h5 class="card-title">Security Monitoring</h5>
                         <p class="card-text">Alert Logic provides the security platform, up-to-date threat intelligence and expert defenders to deliver round-the-clock network security
@@ -238,7 +238,7 @@
 
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="img/Von_mangament.webp" alt="Card image cap" style="max-height: 162px;">
+                    <img class="card-img-top" src="../../img/Von_mangament.webp" alt="Card image cap" style="max-height: 162px;">
                     <div class="card-body"style="height: 339px;">
                         <h5 class="card-title">Vulnerability Management</h5>
                         <p class="card-text">Vulnerability scanning is a fundamental building block of all Alert Logic offerings because you can't protect what you can't see.</p>

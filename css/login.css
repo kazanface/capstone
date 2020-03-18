@@ -1,27 +1,3 @@
-html,
-body {
-    height: 100%;
-}
-
-body {
-    justify-content: center;
-    /*padding-top: 40px;*/
-    padding-bottom: 40px;
-    background-color: #f5f5f5;
-}
-
-h3 a {
-    color: black;
-}
-
-/*.form-signin {*/
-/*    width: 100%;*/
-/*    max-width: 330px;*/
-/*    padding: 15px;*/
-/*    margin: 0 auto;*/
-/*}*/
-
-
 .navbar .nav-link {
     font-size: 14px;
     text-transform: uppercase;
@@ -31,4 +7,39 @@ h3 a {
 
 .navbar .nav-item.active {
     border-left: #444 3px solid;
+}
+
+* {
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+}
+
+#main-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+    color: #fff;
 }

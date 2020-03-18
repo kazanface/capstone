@@ -1,2 +1,0 @@
-<?php
-//order main dashboard

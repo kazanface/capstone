@@ -219,21 +219,9 @@
 
   <!-- FOOTER -->
   <?php include_once("./php/includes/footer.php"); ?>
-
-
-
     <?php include_once("./php/includes/scripts.php"); ?>
 
   <script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-
-    // Configure Slider
-    $('.carousel').carousel({
-      interval: 6000,
-      pause: 'hover'
-    });
-
     // Lightbox Init
     $(document).on('click', '[data-toggle="lightbox"]', function (event) {
       event.preventDefault();

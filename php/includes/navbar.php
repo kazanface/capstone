@@ -19,7 +19,7 @@
                         <a href="/php/company_pages/services.php" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal" >contact</button>
+                        <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#contactModal" >contact</button>
                     </li>
                 </ul>
                 <a class="btn btn-outline-primary ml-5 mr-3 my-sm-0 btn-sm" href="/php/company_pages/cust_register.php" role="button">Register</a>

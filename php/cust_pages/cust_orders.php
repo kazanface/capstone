@@ -2,10 +2,25 @@
     require('cust_isLoggedIn.php');
     checkIfCustLoggedIn();
 ?>
-<h3>This is Customer Orders Page</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php include_once("../includes/head.php"); ?>
+    <link rel="stylesheet" href="../../css/cust_admin.css">
+    <title>Customer Orders</title>
+</head>
 
-<form name="LogoutForm" action="../includes/logOut.php" method="post">
-    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" name="logoutButton" value="Log Out">
-        Log out
-    </button>
-</form>
+<body>
+    <!-- HEADER -->
+    <?php include_once("cust_navbar_admin.php"); ?>
+
+    <div class="my-5">Content</div>
+
+    <!-- FOOTER -->
+    <?php include_once("../includes/footer.php"); ?>
+    <?php include_once("../includes/scripts.php"); ?>
+</body>
+
+</html>
+
+

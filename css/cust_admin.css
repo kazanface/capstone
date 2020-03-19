@@ -1,0 +1,22 @@
+/* only affix the top navbar on mobile */
+@media (max-width: 768px) {
+    .fixed-top-sm {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    body {
+        padding-top: 44px;
+    }
+    .btn.btn-sm {
+        padding: .3rem .4rem;
+    }
+}
+
+
+#main-footer {
+    background: #000;
+    color: #fff;
+}

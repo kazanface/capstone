@@ -25,7 +25,7 @@
                         <form class="text-center" style="color: #757575;" name="newCustomer" id="newCustomer" method="post" action="cust_register_form.php">
 
                             <!-- Error message -->
-                            <?php include('../cust_pages/errors.php'); ?>
+                            <?php include('../includes/errors.php'); ?>
                             <!-- Success notification message -->
                             <?php if (isset($_SESSION['success'])) : ?>
                                 <div class="error success mt-3" >

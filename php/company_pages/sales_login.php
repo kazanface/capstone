@@ -10,44 +10,44 @@
 </header>
 
 <body class="text-center">
+    <div class="main-container">
 
-<?php include_once("../includes/navbar.php"); ?>
-    <h3 class="my-5">
-        <a href="../../index.php"><strong>KOBAYASHI</strong></a>
-    </h3>
+        <?php include_once("../includes/navbar.php"); ?>
 
-    <!-- SALES LOGIN CARD -->
-    <div class="container">
-        <div class="row h-100 justify-content-center align-items-center">
-            <div class="card" style="width: 22rem;">
-                <h5 class="card-header info-color white-text text-center py-4">
-                    <strong>Sales Login</strong>
-                </h5>
+        <!-- SALES LOGIN CARD -->
+        <div class="container mt-5">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="card" style="width: 22rem;">
+                    <h5 class="card-header info-color white-text text-center py-4">
+                        <strong>Sales Login</strong>
+                    </h5>
 
-                <div class="card-body px-lg-5 pt-0">
-                    <!-- Form -->
-                    <form class="text-center" style="color: #757575;" name="loginForm" id="loginForm" method="post" action="checkSalesLogin.php">
+                    <div class="card-body px-lg-5 pt-0">
+                        <!-- Form -->
+                        <form class="text-center" style="color: #757575;" name="loginForm" id="loginForm" method="post" action="../sales_pages/sales_checkLogin.php">
 
-                        <!-- Username -->
-                        <div class="md-form">
-                            <input type="text" id="loginUser" name="loginUser" class="form-control" placeholder="Username">
-                        </div>
+                            <!-- Username -->
+                            <div class="md-form">
+                                <input type="text" id="loginSalesUser" name="loginSalesUser" class="form-control" placeholder="Username" required>
+                            </div>
 
-                        <!-- Password -->
-                        <div class="md-form">
-                            <input type="password" id="loginPwd" name="loginPwd" class="form-control" placeholder="Password">
-                        </div>
+                            <!-- Password -->
+                            <div class="md-form">
+                                <input type="password" id="loginSalesPwd" name="loginSalesPwd" class="form-control" placeholder="Password" required>
+                            </div>
 
-                        <!-- Login button -->
-                        <input type="submit" name="submit" id="button1" value="Login" class="btn btn-outline-info btn-block my-4" />
-                    </form>
-                </div>
-             </div>
+                            <!-- Login button -->
+                            <input type="submit" name="submit" id="button1" value="Login" class="btn btn-outline-info btn-block my-4" />
+                        </form>
+                    </div>
+                 </div>
+            </div>
         </div>
+
+        <!-- FOOTER -->
+        <?php include_once("../includes/footer.php"); ?>
     </div>
-<!--    <p class="mt-5 mb-3 text-muted">Copyright &copy; 2020, KOBAYASHI.</p>-->
-<!-- FOOTER -->
-<?php include_once("../includes/footer.php"); ?>
-<?php include_once("../includes/scripts.php"); ?>
+
+    <?php include_once("../includes/scripts.php"); ?>
 </body>
 </html>

@@ -15,6 +15,13 @@
     }
 }
 
+hr {
+    border: 1px solid lightgray;
+}
+
+.custom-select {
+    font-family: 'Noto Sans', sans-serif;
+}
 
 #main-footer {
     background: #000;

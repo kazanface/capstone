@@ -225,7 +225,6 @@
       event.preventDefault();
       $(this).ekkoLightbox();
     });
-
   </script>
 </body>
 

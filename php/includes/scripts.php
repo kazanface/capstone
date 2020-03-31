@@ -12,6 +12,8 @@
 <!--    slick-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
+
+<!--Footers copyright-->
 <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());

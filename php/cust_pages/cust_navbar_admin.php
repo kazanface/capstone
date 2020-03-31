@@ -1,3 +1,7 @@
+<?php
+    $pageName = basename($_SERVER['PHP_SELF']);
+?>
+
 <header>
     <nav class="navbar navbar-expand-md fixed-top-sm justify-content-start flex-nowrap bg-dark navbar-dark">
         <div class="container">
@@ -27,10 +31,10 @@
         <div class="container">
             <div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item <?php if($pageName == 'cust_orders.php'){ echo 'active'; } ?>">
                         <a class="nav-link" href="cust_orders.php">Orders</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item <?php if($pageName == 'cust_inquiries.php'){ echo 'active'; } ?>">
                         <a class="nav-link" href="cust_inquiries.php">Inquiries</a>
                     </li>
                 </ul>

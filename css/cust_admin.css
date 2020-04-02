@@ -27,3 +27,19 @@ hr {
     background: #000;
     color: #fff;
 }
+
+.btn-status, .btn-status * {
+    color:#2D7BFF;
+    display: inline-block;
+    border: none;
+    background: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.vertical-line {
+    display: inline;
+    border-left: 1.2px solid gray;
+    margin: 0 1em;
+    height: 1em;
+}
